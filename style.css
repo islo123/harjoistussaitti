@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+.body1{
+    width: 52.8%;
+    margin: 0 auto;
+}
+#logo{
+    display: block;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 7px;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+header nav ul li{
+    margin-left: 35px;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+header nav ul li a{
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    color: black;
+}
+h1,h2{
+    font-family: "Oswald", sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+h1{
+    font-size: 28px;
+}
+h2{
+    font-size: 18px;
+}
+
+a {
+    color: #099;
+    text-decoration: none;
+    font-size: 14px;
+}
+a:hover{
+    text-decoration: underline;
+    color:  #008080;
+}
+#logo{
+    background-image: url("file:///T:/html-css-2020-02-06/Workshop-1/Images/bacon-ipsum.svg");
+    height: 61px;
+    width: 320px;
+    background-size: cover;
+    display: block;
+}
+.login{
+    display: flex;
+  
+}
+input{
+  
+    border: 1px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 12px;
+}
+button{
+    color: white;
+    background-color: #009999;
+    border: 1px solid #009999;
+    padding: 5px 10px 5px 10px;
+    width: 95%;
+    margin-left: 20px;
+    font-size: 14px;
+    font-family: "Oswald", sans-serif;
+}
+button:hover{
+    background-color: #008080;
+    
+}
+.div-h1 h1{
+    margin-bottom: 3px;
+}
+.col-2-3{
+    width: 67%;
+}
+.col-1-3{
+    width: 33%;
+    
+}
+.signin{
+    text-align: right;
+}
+.images{
+    display:flex;
+}
+.image-1{
+    margin-left: 20px;
+}
+.image-2{
+    margin-left: 20px;
+}
+hr{
+    border: 1px solid rgb(231, 226, 226);
+    border-top: none;
+}
+footer{
+    display: flex;
+}
+.footerimg img{
+    width: 10%;
+    position: relative;
+    left: 650px;
+    top: 113px;
+}
+.images a::after{
+    content: "  \203A";
+}
+.images h2{
+    margin-bottom: 0;
+}
+.images p{
+    margin-top: 3px;
+}
+footer h3{
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+footer p{
+    margin-top: 3px;
+}
+.login p{
+    margin-top: 0;
+}
+
+.login1{
+    margin-top: 3px;
+}
+form{
+    margin-top: 0;
+}
